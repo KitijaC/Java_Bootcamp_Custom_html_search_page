@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Google Search</title>
+      <style>
+          img {
+              width: 128px;
+          }
+
+          .inline {
+              display: inline-block;
+          }
+      </style>
+</head>
+<body>
+    <header>
+        <img class="inline" src="https://t4.ftcdn.net/jpg/05/62/99/31/360_F_562993122_e7pGkeY8yMfXJcRmclsoIjtOoVDDgIlh.jpg">
+        <h1 class="inline">Our Custom Search</h1>
+    </header>
+    <main>
+        <!--
+        https://www.google.com/search?q=cute+cat
+        -->
+        <form action="https://www.google.com/search" method="get">
+            <div>
+                <input name="q">
+            </div>
+            <div>
+                <button>Do Search!!!</button>
+            </div>
+        </form>
+
+    </main>
+</body>
+</html>
